@@ -1,0 +1,184 @@
+/* Reset de margin e padding */
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+h1,
+h2,
+.text {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+
+}
+
+.text2 {
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+body {
+    margin: 0;
+}
+
+/* Estilos do header e navbar */
+header {
+    background-color: #310058;
+    padding: 12px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 4px;
+    transition: all 0.3s linear;
+}
+
+.logo {
+    margin-right: auto;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 650px;
+}
+
+.nav-item {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+/* Mudança de cor durante o hover */
+.nav-item:hover {
+    color: #ffcc00;
+    /* Cor desejada para o hover */
+}
+
+/* Estilos da section1 */
+.section1 {
+    background-image: radial-gradient(circle, #29004b, #520096, #5e00ac);
+    padding-top: 40px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    max-width: 500px;
+    margin-right: 40px;
+}
+
+.text {
+    text-align: center;
+}
+
+/* Estilos da section2 */
+.section2 {
+    display: grid;
+    gap: 20px;
+    padding: 50px;
+    background-color: #310058;
+    justify-content: center;
+}
+
+.section2-title {
+    grid-column: 1 / 3;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.image-with-border {
+    max-width: 300px;
+    border: 4px solid #e0e0e0;
+    position: relative;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Estilos para a terceira seção */
+.section3 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #45007e;
+}
+
+.image-container {
+    flex-basis: 50%;
+}
+
+.image-container img {
+    width: 70%;
+    height: auto;
+}
+
+.sobre-nos {
+    flex-basis: 50%;
+    padding-left: 20px;
+}
+
+.sobre-nos h2 {
+    font-size: 24px;
+}
+
+.sobre-nos p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    Text-justify: inter-word;
+}
+
+
+/* Estilos do footer */
+footer {
+    background-color: #310058;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.copyright {
+    margin: 0;
+    padding: 10px;
+    font-size: 12px;
+    color: #bdbdbd;
+}
